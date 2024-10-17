@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Este TextView puede ser utilizado para mostrar un resumen del carrito -->
+    <TextView
+        android:id="@+id/textViewDetallesCarrito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <!-- Aquí es donde se mostrarán los elementos del carrito individualmente -->
+    <LinearLayout
+        android:id="@+id/layoutCarritoItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <!-- Texto que muestra el total a pagar -->
+    <TextView
+        android:id="@+id/textViewTotalPagar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total a Pagar: S/ 0.00"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botón para proceder con el pago -->
+    <Button
+        android:id="@+id/buttonPagar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pagar"
+        android:layout_marginTop="8dp" />
+
+    <!-- Botón para cerrar el carrito -->
+    <Button
+        android:id="@+id/buttonCerrarCarrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrar"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

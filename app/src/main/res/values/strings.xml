@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bienvenido al Proyecto</string>
+    <string name="btnLoginGoogle">Login Google</string>
+
+    <string name="default_web_client_id">11858177134-s4mepeatp6h7tmqsmebqfg1uhedh021s.apps.googleusercontent.com</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="descripcion_portada">Descripción de la portada del objeto</string>
+</resources>

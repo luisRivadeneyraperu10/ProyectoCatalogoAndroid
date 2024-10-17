@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icono_crea_negocios"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icono_crea_negocios_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProyectoCatalogo"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".BuscadorActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.paypal.android.sdk.paypalEnvironment"
+            android:value="sandbox" /> <!-- Cambia a "live" cuando estés listo para producción -->
+        <meta-data
+            android:name="com.paypal.android.sdk.clientId"
+            android:value="AVn-Qoduh286YpfoJ3MLoxNaoaauarVJ5lHKpe4I-6xY-9qu4LuNvFHegCN5OuKmfRzlnrgftqxtIVJV" /> <!-- Reemplaza "TU_CLIENT_ID" con tu Client ID de PayPal -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginGoogleActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".network.InicioActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

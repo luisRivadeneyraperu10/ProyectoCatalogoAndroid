@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "11858177134",
+    "firebase_url": "https://tiendamovil-dec8d-default-rtdb.firebaseio.com",
+    "project_id": "tiendamovil-dec8d",
+    "storage_bucket": "tiendamovil-dec8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11858177134:android:ddbb1aaa0447b950118a7f",
+        "android_client_info": {
+          "package_name": "com.cibertec.tiendamovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11858177134-msntsqoklcvgstgdq4stj1mgr64nh4sd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cibertec.tiendamovil",
+            "certificate_hash": "4d8354f5a8b9e90b1504a8fe0510427a9c956c42"
+          }
+        },
+        {
+          "client_id": "11858177134-fr5k65ceehf683hucfnsllrlm59vvra6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNg9DbO9B5oqt4zl_Dogzrolf1W_9cxK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11858177134-fr5k65ceehf683hucfnsllrlm59vvra6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

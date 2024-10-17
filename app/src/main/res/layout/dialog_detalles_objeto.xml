@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewPortada"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/descripcion_portada" />
+
+    <TextView
+        android:id="@+id/textViewDetalles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp">
+
+        <ImageButton
+            android:id="@+id/buttonMenos"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menos"
+        android:background="?attr/selectableItemBackground"/>
+
+        <EditText
+            android:id="@+id/editTextCantidad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Cantidad"
+            android:inputType="number"
+            android:padding="8dp"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/buttonMas"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add"
+        android:background="?attr/selectableItemBackground" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonAgregarCarrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar al carrito"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/buttonCerrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrar" />
+</LinearLayout>
