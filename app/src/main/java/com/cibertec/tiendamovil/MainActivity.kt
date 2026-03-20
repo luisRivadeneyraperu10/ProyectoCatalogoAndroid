@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
     private val config = PayPalConfiguration()
         .environment(PayPalConfiguration.ENVIRONMENT_SANDBOX) // Usar sandbox para pruebas
-        .clientId("AVn-Qoduh286YpfoJ3MLoxNhfhjhdj7k3aoaauarVJ5lHKpe4I-6xY-9qu4LuNvFHegCfRzlnrgftqxtIVJV")
+        .clientId("AVn-Qoduh256YpfoJ3MLoxNhfhjhdj7k3aoaauarVJ5lHKpe4I-6xY-9qu4LuNvFHegCfRzlnrgftqxtIVJV")
 
     private val REQUEST_CODE_PAYMENT = 1
 
