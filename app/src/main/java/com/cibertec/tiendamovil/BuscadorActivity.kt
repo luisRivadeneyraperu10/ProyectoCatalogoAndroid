@@ -47,7 +47,7 @@ class BuscadorActivity : AppCompatActivity() {
 
     private val config = PayPalConfiguration()
         .environment(PayPalConfiguration.ENVIRONMENT_SANDBOX) // Usar sandbox para pruebas
-        .clientId("AVn-Qoduh256YpfoJ3MLoxNaoaJ5lHKpe4hghfg30I-6xY-9qu4LuNvFghfghsd7HegCN5OuKmfRzltqxtIVJV")
+        .clientId("AVn-Qoduh256YpfjoJ3MLoxNaoaJ5lHKpe430hghfg30I-6xY-9qu4LuNvFghfghsd7HegCN5OuKmftqxtIVJV")
 
     private val REQUEST_CODE_PAYMENT = 1
 
