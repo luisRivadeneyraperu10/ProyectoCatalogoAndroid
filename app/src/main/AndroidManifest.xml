@@ -24,7 +24,7 @@
             android:value="sandbox" /> <!-- Cambia a "live" cuando estés listo para producción -->
         <meta-data
             android:name="com.paypal.android.sdk.clientId"
-            android:value="AVn-Qoduh286YpfoJ3MLoxNaoarVJ5lHKpe4I-6xY-9qu4Lu7k3NvFHegCN5OuKmfRzlnrgftqxtIVJV" /> <!-- Reemplaza "TU_CLIENT_ID" con tu Client ID de PayPal -->
+            android:value="AVn-Qoduh286YpfoJ3MLox3h0NaoarVJ5lHKpe4I-6xY-9qu4Lu7kgfg3NvFHegCNfRzlnrgftqxtIVJV" /> <!-- Reemplaza "TU_CLIENT_ID" con tu Client ID de PayPal -->
         <activity
             android:name=".MainActivity"
             android:exported="true" />
