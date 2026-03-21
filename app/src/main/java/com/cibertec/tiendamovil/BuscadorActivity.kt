@@ -47,7 +47,7 @@ class BuscadorActivity : AppCompatActivity() {
 
     private val config = PayPalConfiguration()
         .environment(PayPalConfiguration.ENVIRONMENT_SANDBOX) // Usar sandbox para pruebas
-        .clientId("AVn-Qoduh256YpfoJ3MLoxNaoaJ5lHKpe4I-6xY-9qu4LuNvFghfghsd7HegCN5OuKmfRzlnrgftqxtIVJV")
+        .clientId("AVn-Qoduh256YpfoJ3MLoxNaoaJ5lHKpe4hghfg30I-6xY-9qu4LuNvFghfghsd7HegCN5OuKmfRzltqxtIVJV")
 
     private val REQUEST_CODE_PAYMENT = 1
 
@@ -139,7 +139,7 @@ class BuscadorActivity : AppCompatActivity() {
                             setSpan(StyleSpan(Typeface.BOLD), 0, 7, 0)
                         }
 
-                        val imageUrl = "http://192.168.56.1:8383/movies/cover/${objetoEncontrado.portada}"
+                        val imageUrl = "http://192...:8383/movies/cover/${objetoEncontrado.portada}"
                         Glide.with(this@BuscadorActivity)
                             .load(imageUrl)
                             .into(imgPortada)
